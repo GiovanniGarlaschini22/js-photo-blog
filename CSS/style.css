@@ -101,3 +101,39 @@ main {
   font-size: 0.9em;
   color: rgb(102, 102, 102);
 }
+
+/* OVERLAY */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1000;
+}
+
+/* NASCONDERE OVERLAY
+.hidden {
+  display: none;
+}*/
+
+/* Immagine centrata */
+.overlay img {
+  max-width: 80%;
+  max-height: 70%;
+  margin-top: 10px;
+}
+
+/* Bottone di chiusura */
+#closeBtn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+}
