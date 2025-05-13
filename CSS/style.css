@@ -117,10 +117,10 @@ main {
   z-index: 1000;
 }
 
-/* NASCONDERE OVERLAY
+/* NASCONDERE OVERLAY */
 .hidden {
   display: none;
-}*/
+}
 
 /* Immagine centrata */
 .overlay img {
